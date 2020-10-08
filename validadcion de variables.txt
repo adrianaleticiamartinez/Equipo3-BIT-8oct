@@ -1,0 +1,9 @@
+cliente.setapellidopaterno(rs.getString("apellidopaterno"));
+cliente.setapellidomaterno(rs.getString("apellidomaterno"));
+cliente.setedad(rs.getString("edad"));
+cliente.setnacionalidad(rs.getString("nacionalidad"));
+cliente.setrfc(rs.getString("rfc"));
+cliente.settipoid(rs.getString("tipoid"));
+cliente.setnumeroid(rs.getString("numeroid"));
+cliente.setcuenta(rs.getString("cuenta"));
+cliente.setemail(rs.getString("email"));

@@ -1,0 +1,19 @@
+CREATE TABLE cliente (
+  IdCliente        NUMBER NOT NULL,
+  Nombre           VARCHAR2(50) NOT NULL,
+  Apellido Paterno VARCHAR2(70) NOT NULL,
+  Apellido Materno VARCHAR2(70) NOT NULL,
+  Edad             NUMBER NOT NULL,
+  Sexo             VARCHAR2(50) NOT NULL,
+  Nacionalidad     VARCHAR2(50) NOT NULL,
+  Rfc              VARCHAR2(50) NOT NULL,
+  TipoID           NUMBER NOT NULL,
+  NumeroID         NUMBER NOT NULL,
+  Segmento Number  NUMBER NOT NULL,
+  Nacionalidad     VARCHAR2(50) NOT NULL,
+  rfc              VARCHAR2(50) NOT NULL,
+  TipoID           NUMBER NOT NULL,
+  NumeroID         NUMBER NOT NULL,
+  Cuenta           VARCHAR2(50) NOT NULL
+  Email            VARCHAR2(50) NOT NULL
+);
