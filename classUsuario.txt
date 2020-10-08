@@ -1,0 +1,12 @@
+private class Usuario{
+
+
+private String usuario;
+private String auth;
+private String nombreCompleto;
+private String area;
+private String ubicacion;
+private String segmento;
+private String perfil;
+
+}
