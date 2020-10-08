@@ -40,6 +40,7 @@ public class ClienteRepository {
 					cliente.setNumeroID(rs.getString("numeroid"));
 					cliente.setCuenta(rs.getString("cuenta"));
 					cliente.setEmail(rs.getString("email"));
+					cliente.setSegmento(rs.getString("segmento"));
 					return cliente;
 				}
 			});
